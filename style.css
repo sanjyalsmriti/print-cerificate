@@ -1,0 +1,41 @@
+body {
+    margin: 1em;
+    padding: 1em;
+}
+
+.print {
+    margin-top: 9em;
+}
+
+td,
+th {
+    padding-left: 0.4em;
+}
+
+.header-border {
+    border: 1px black solid;
+    margin: 1em 0;
+}
+
+.line {
+    background: black;
+    height: 1px;
+    width: 65%;
+}
+
+.footer-margin {
+    margin-top: 20vh;
+}
+
+hr {
+    background-color: black;
+}
+
+
+@media print {
+
+    .no-print,
+    .no-print * {
+        display: none !important;
+    }
+}
